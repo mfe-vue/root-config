@@ -10,8 +10,8 @@ registerApplication({
 });
 
 // registerApplication({
-//   name: "@dullarjs/navbar",
-//   app: () => System.import("@dullarjs/navbar"),
+//   name: "@mfe-vue/navbar",
+//   app: () => System.import("@mfe-vue/navbar"),
 //   activeWhen: ["/"]
 // });
 
