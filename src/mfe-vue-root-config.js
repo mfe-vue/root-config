@@ -9,11 +9,17 @@ registerApplication({
   activeWhen: ["/"],
 });
 
-// registerApplication({
-//   name: "@mfe-vue/navbar",
-//   app: () => System.import("@mfe-vue/navbar"),
-//   activeWhen: ["/"]
-// });
+registerApplication({
+  name: "@mfe-vue/flight-application",
+  app: () => System.import("@mfe-vue/flight-application"),
+  activeWhen: ["/flight"],
+});
+
+registerApplication({
+  name: "@mfe-vue/train-application",
+  app: () => System.import("@mfe-vue/train-application"),
+  activeWhen: ["/train"],
+});
 
 start({
   urlRerouteOnly: true,
